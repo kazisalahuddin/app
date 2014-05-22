@@ -1,7 +1,9 @@
 <?php
 	include('conn.php');
-	$device_id=$_REQUEST['device_id'];
-	$latitude=$_REQUEST['latitude'];
+	
+$device_id=$_REQUEST['device_id'];
+	
+$latitude=$_REQUEST['latitude'];
 	$longitude=$_REQUEST['longitude'];
 	/*$userName='saka';
 	$password='123';
@@ -13,4 +15,11 @@
 	}else{
 		echo '0';
 	}
+
+
+echo "git update";
+
+
 ?>
+
+
